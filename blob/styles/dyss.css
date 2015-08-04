@@ -1,0 +1,625 @@
+/* 
+    Document   : dyss
+    Created on : 2012.01.27., 11:50:37
+    Author     : gyozke
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+html, body, div {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: Verdana, Arial, sans-serif;
+	background: white url("bggrey2.png") repeat;
+}
+
+header {
+	height: 40px;
+	background-color: #222222;
+	color: white;
+	margin: 0px;
+	border-bottom: 5px solid #9ecb8e;
+}
+
+header > div {
+	width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header h1 {
+	float: left;
+	margin: 0px;
+}
+
+header h1 a {
+	text-decoration: none;
+	color: inherit;
+}
+
+header p {
+	float: right;
+	margin: 4px 0px;
+}
+
+footer {
+	min-height: 40px;
+	background-color: #222222;
+	color: white;
+	margin: 0px;
+	text-align: center;
+	padding: 10px;
+	font-size: smaller;
+}
+
+#outer_header {
+	background-color: #79C3D2;
+}
+
+#inner_header {
+	width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+}
+
+.button {
+	background-color: orange;
+	color: white;
+	border-radius: 4px;
+	display: inline-block;
+	text-decoration: none;
+	border: 2px solid #eeeeee;
+	padding: 5px;
+	font-size: medium;
+}
+
+.button:hover {
+	background-color: #ff5700;
+}
+
+.bigbutton {
+	padding: 10px;
+}
+
+.button span {
+	display: block;
+}
+
+#outer_content {
+	background-color: #222222;
+}
+
+#content {
+	width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	/*border-top: 5px solid #eeeeee;*/
+}
+
+.column {
+	border: 1px solid #222222;
+	border-radius: 4px 4px 0px 0px;
+	background-color: #eeeeee;
+	margin: 10px 0px;
+}
+
+.column:after {
+	content: " ";
+	clear: both;
+	display: block;
+}
+
+.column1 {
+	width: 940px;
+}
+
+.column_left {
+	width: 460px;
+	float: left;
+}
+
+.column_right {
+	width: 456px;
+	float: right;
+}
+
+.column h3 {
+	margin: 0px;
+	background-color: #222222;
+	color: white;
+	padding: 5px;
+	border-radius: 4px 4px 0px 0px;
+}
+
+div.title {
+	background-color: #222222;
+	color: white;
+	padding: 5px 0px;
+	/*height: 32px;
+	border-top: 1px solid #eeeeee;*/
+}
+
+div.title h2 {
+	margin: 0px;
+	float: left;
+}
+
+div.title p {
+	float: right;
+	margin: 0px;
+}
+
+div.title ul {
+	float: right;
+	list-style-type: none;
+	margin: 0px;
+}
+
+div.title li {
+	float: left;
+	margin-right: 10px;
+}
+
+#showroom {
+	position: relative;
+}
+
+#showroom img {
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	display: block;
+	border: 10px solid white;
+}
+
+#showroom a {
+	display: block;
+	width: 60px;
+	margin: 0px;
+	height: 100%;
+	position: absolute;
+	background: white;
+	opacity: 0.4;
+}
+
+#showroom a:hover {
+	opacity: 0.7;
+}
+
+#showroom a span {
+	position: absolute;
+	left: -9999px;
+}
+
+#showroom .elozo {
+	top: 0px;
+	left: 0px;
+	background: white url("left-arrow.png") center center no-repeat;
+}
+
+#showroom .kovetkezo {
+	top: 0px;
+	right: 0px;
+	background: white url("right-arrow.png") center center no-repeat;
+}
+
+aside {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	/*float: left;*/
+	width: 155px;
+}
+
+aside ul {
+	list-style-type: none;
+	padding: 0px;
+}
+
+aside li {
+	margin: 10px;
+	border-left: 5px solid #f0bc4d;
+	padding: 3px;
+}
+
+aside a {
+	color: black;
+}
+
+#main_content {
+	margin-left: 160px;
+	background-color: white;
+	border-left: 1px solid #9ecb8e;
+	border-right: 1px solid #9ecb8e;
+}
+
+#inner_content {
+	padding: 20px;
+}
+
+.absolute_bottom_right {
+	position: absolute;
+	bottom: 20px;
+	right: 10px;
+}
+
+ul.keplista li {
+	list-style-type: none;
+	color: white;
+	margin: 10px;
+	padding: 0px;
+	border: 10px solid #bbbbbb;
+	float: left;
+	display: block;
+	width: 120px;
+	border-radius: 6px;
+	/*height: 100px;*/
+}
+
+ul.keplista li > a {
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+}
+
+ul.keplista li img {
+	width: 120px;
+	/*height: 67px;*/
+	display: block;
+}
+
+ul.keplista .funkciok {
+	background-color: #222222;
+	text-align: center;
+	font-size: small;
+	position: relative;
+}
+
+ul.keplista .funkciok a {
+	display: block;
+	width: 30px;
+	margin: 0px;
+	height: 30px;
+	opacity: 0.2;
+	/*position: absolute;
+	top: 0px;*/
+	float: left;
+}
+
+ul.keplista .funkciok a span {
+	position: absolute;
+	left: -9999px;
+}
+
+ul.keplista .elozo {
+	background: white url("left-arrow-small.png") center center no-repeat;
+}
+
+ul.keplista .kovetkezo {
+	background: white url("right-arrow-small.png") center center no-repeat;
+}
+
+ul.keplista .delete {
+	background: white url("delete.gif") center center no-repeat;
+}
+
+ul.keplista .active {
+	background: white url("active.png") center center no-repeat;
+}
+
+ul.keplista .inactive {
+	background: white url("inactive.png") center center no-repeat;
+}
+
+ul.keplista .funkciok a:hover {
+	opacity: 0.7;
+}
+
+h2 {
+	margin: 0px;
+}
+
+div.error {
+	border: 2px solid Red;
+	background-color: #ffc8c8;
+	color: red;
+}
+
+	/*
+		Általános
+	*/
+	
+	form {
+		/*background-color: #e5e5e5;
+		border: 1px solid darkgreen;*/
+		padding: 10px;
+	}
+	
+	form img {
+		float: right;
+		width: 120px;
+		border: 10px solid #bbbbbb;
+		border-radius: 6px;
+		margin-right: 10px;
+	}
+	
+	form dt {
+		float: left;
+		clear: left;
+		width: 100px;
+		text-align: right;
+		margin-right: 10px;
+	}
+	
+	form dd {
+		margin-left: 120px;
+	}
+	
+	input, textarea, select {
+		margin: 0px 0px 10px 0px;
+	}
+	
+	form.big .text {
+		width: 400px;
+	}
+	
+	form.small .text {
+		width: 200px;
+	}
+	
+	
+	/*	Bemutatólista */
+	
+	ul.lista {
+		list-style-type: none;
+		padding: 0px;
+		margin: 0px;
+	}
+	
+	ul.lista > li {
+		width: 100%;
+		max-width: 500px;
+		margin: 5px 0px;
+	}
+	
+	ul.lista .fo {
+		height: 130px;
+		overflow: hidden;
+		position: relative;
+	}
+	
+	ul.lista .info {
+		height: 100%;
+		margin: 0px;
+		position: absolute;
+		background-color: black;
+		color: white;
+		width: 50%;
+		opacity: 0.5;
+		top: 0px;
+		right: 0%;
+	}
+	
+	ul.lista .info h4 {
+		font-family: Verdana, Arial, sans-serif;
+		margin: 2px 5px;
+	}
+	
+	ul.lista .info p {
+		margin: 4px 5px;
+	}
+	
+	ul.lista .info .kisbetu {
+		font-size: small;
+	}
+	
+	ul.lista .info .cimkek {
+		display: inline;
+	}
+	
+	ul.lista .info ul.cimkek {
+		padding: 0px;
+		display: inline;
+	}
+	
+	ul.lista .info ul.cimkek li {
+		list-style-type: none;
+		display: inline;
+	}
+	
+	ul.lista .info ul.cimkek li a {
+		color: orange;
+	}
+	
+	ul.lista .funkciok {
+		background-color: black;
+		font-size: smaller;
+	}
+	
+	ul.lista .funkciok ul li {
+		list-style-type: none;
+		display: inline;
+	}
+	
+	ul.lista .funkciok a {
+		color: white;
+	}
+	
+	
+	.separator {
+		clear: both;
+	}
+	
+	
+	/*
+	Címkefelhő
+	*/
+	
+	ul.felho li {
+		float: left;
+		list-style-type: none;
+		margin-left: 10px;
+	}
+	
+	
+	/*	Képlista */
+	
+	ul.kepek > li {
+		list-style-type: none;
+		background-color: #eeeeee;
+		color: black;
+		margin: 10px;
+		padding: 10px;
+		border: 1px solid #bbbbbb;
+	}
+	
+	ul.kepek dl, ul.kepek ul {
+		float: left;
+	}
+	
+	ul.kepek .kep {
+		clear: left;
+	}
+	
+	ul.kepek .alapadat {
+		width: 300px;
+	}
+	
+	ul.kepek .alapadat dt, ul.kepek .kep dt {
+		display: none;
+	}
+	
+	ul.kepek .alapadat dd, ul.kepek .kep dd {
+		margin: 10px;
+	}
+	
+	ul.kepek .hely {
+		width: 200px;
+	}
+
+	ul.kepek .hely dt {
+		float: left;
+		clear: left;
+	}
+	
+	ul.kepek .hely dd {
+		width: 100px;
+	}
+		
+	ul.kepek .funkciok {
+		width: 100px;
+	}
+	
+	/* Bemutató */
+	
+	#adatok {
+		background-color: #222222;
+		padding: 10px;
+		color: white;
+		position: relative;
+		font-size: small;
+	}
+	
+	#adatok .bemutatoadat {
+		width: 30%;
+		float: left;
+	}
+	
+	#adatok .kepadat {
+		width: 30%;
+		float: left;
+		margin-left: 20px;
+	}
+	
+	#adatok dt {
+		color: #aaaaaa;
+		float: left;
+		clear: left;
+		width: 150px;
+		text-align: right;
+		margin-right: 10px;
+	}
+	
+	#adatok dd {
+		margin-left: 160px;
+	}
+	
+	#adatok .funkciok {
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		margin: 20px;
+	}
+	
+	#adatok .funkciok a {
+		color: orange;
+	}
+	
+	#adatok dd ul {
+		margin: 0px;
+		padding: 0px;
+	}
+	
+	#adatok dd  li {
+		list-style-type: none;
+		display: inline;
+		margin-right: 10px;
+	}
+	
+	#adatok dd li a {
+		color: orange;
+	}
+	
+	#belyegkepek {
+		border-top: 1px solid black;
+		background-color: #eeeeee;
+		overflow: auto;
+	}
+	
+	#belyegkepek ul {
+		white-space: nowrap;
+		margin: 10px;
+		padding: 0px;
+	}
+	
+	#belyegkepek li {
+		/*float: left;*/
+		display: inline;
+		margin-left: 10px;
+		list-style-type: none;
+	}
+	
+	#bemutato {
+		background-color: black;
+		padding: 10px;
+		position: relative;
+		text-align: center;
+	}
+	
+	#bemutato img {
+		margin: 0 auto;
+	}
+	
+	#bemutato a {
+		position: absolute;
+		padding: 10px;
+		color: white;
+		background-color: #aaaaaa;
+		border: 1px solid white;
+	}
+	
+	#bemutato .elozo {
+		top: 0px;
+		left: 0px;
+	}
+	
+	#bemutato .kovetkezo {
+		top: 0px;
+		right: 0px;
+	}
